@@ -14,6 +14,18 @@ Or if you prefer, you can use with arguments (just remove the file `__configurat
 	gmail.py username password directory
 	```
 
+### Crontab
+Do not forget to add the script in a crontab task ;-)
+
+	crontab -e
+
+And add, for example :
+
+	###################################################
+	# GMAIL BACKUP
+	###################################################
+	0 */2 * * * python /home/you/.../gmail.py
+
 
 ## Protect your password
 There isn't a good way to keep your password account secret. It's saved in clear text.
