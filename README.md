@@ -6,10 +6,10 @@ Just' in case of Zombie Attack or Google explusion.
 
 ## Configuration
 ### File configuration
-You need to change `username`, `password` and `directory` in `\_\_configuration\_\_.py`
+You need to change `username`, `password` and `directory` in `__configuration__.py`
 
 ### Command line
-Or if you prefer, you can use with arguments (just remove the file `\_\_configuration\_\_.py`)
+Or if you prefer, you can use with arguments (just remove the file `__configuration__.py`)
 	> ```
 	gmail.py username password directory
 	```
