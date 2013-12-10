@@ -10,11 +10,10 @@ You need to change `username`, `password` and `directory` in `__configuration__.
 
 ### Command line
 Or if you prefer, you can use with arguments (just remove the file `__configuration__.py`)
-	> ```
-	gmail.py username password directory
-	```
 
-### Crontab
+	gmail.py username password directory
+
+### Crontab it !
 Do not forget to add the script in a crontab task ;-)
 
 	crontab -e
